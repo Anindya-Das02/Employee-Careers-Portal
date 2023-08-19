@@ -1,0 +1,30 @@
+.flex-container{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form-container{
+    height: 300px;
+    width: 600px;
+    /* background-color: lightblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.login-form-item{
+    height: auto;
+    width: 550px;
+    /* background-color: red; */
+    margin: 15px;
+}
+
+.login-btn{
+    width: 100%;
+}

@@ -1,0 +1,33 @@
+.top-banner{
+    max-height: 150px;
+    background-color: #004080;
+}
+
+.flex-container {
+
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.company-title{
+    font-size: 65px;
+    color: white;
+}
+.portal-button-group-parent{
+    height: calc(100vh - 150px);
+    /* background-color: lightpink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.portal-btn{
+    width: 45%;
+    margin: 15px;
+    font-weight: bold;
+    font-size: 30px;
+}

@@ -1,0 +1,18 @@
+.we-container{
+    min-height: 150px;
+    margin-top: 20px;
+    /* background-color: lightcoral; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.we-items{
+    min-height: 150px;
+
+    width: 65%;
+    background-color:  #F5FE93;
+    padding: 12px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}

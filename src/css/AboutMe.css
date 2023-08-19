@@ -1,0 +1,21 @@
+.about-me-container{
+    min-height: 150px;
+    /* background-color: lightcoral; */
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me-box{
+    min-height: 150px;
+    width: 65%;
+    background-color: #F5FE93;
+    padding: 12px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.char-left{
+    height: 20px;
+    font-size: small;
+    color: lightslategrey;
+}

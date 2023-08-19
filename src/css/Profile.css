@@ -1,0 +1,104 @@
+.profile-image-section{
+    margin-top: 15px;
+    min-height: 200px;
+    /* background-color: lightskyblue; */
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.candidate-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.candidate-image-upload-btn{
+    margin: 9px;
+    min-width: 100px; 
+}
+
+.input-group{
+    margin: 9px;
+    max-width: 200px;
+}
+
+.condidate-details-container{
+    height: 180px;
+    /* background-color: lightskyblue; */
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.condidate-details{
+    height: 180px;
+    min-width: 50%;
+    max-width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.resume-container{
+    margin-top: 20px;
+    min-height: 100px;
+    /* background-color: lightcoral; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+
+}
+
+.resume{
+    min-height: 100px;
+    background-color: lightgray;
+    width: 50%;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.3);
+}
+.resume-btns{
+    margin-top: 10px;
+    align-self: center;
+}
+
+.about-me-container{
+    margin-top: 20px;
+    min-height: 150px;
+    /* background-color: lightcoral; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me-text{
+    min-height: fit-content;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 50%;
+    padding: 12px;
+    box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.3);
+}
+
+.about-me-textarea{
+    min-height: 200px;
+}
+
+.empty-row{
+    margin-top: 15px;
+    height:150px
+}

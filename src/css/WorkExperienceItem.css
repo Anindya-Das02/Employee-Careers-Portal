@@ -1,0 +1,44 @@
+.workexperience-box-container{
+    min-height: 80px;
+    margin-top: 20px;
+    /* margin: 20px; */
+    /* background-color: lightcoral; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workexperience-box{
+    min-height: 80px;
+    width: 100%;
+    background-color:  #E2DDD2;
+    padding: 12px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.work-duration{
+    display: flex;
+
+}
+
+.edit-btn{
+    display: flex;
+    max-height: 29px;
+}
+
+.we-text-area-container{
+    min-height: 80px;
+    /* background-color: lightcoral; */
+    display: flex;
+    flex-direction: column;
+}
+
+.char-left{
+    height: 20px;
+    font-size: small;
+    color: lightslategrey;
+}
+
+
+
